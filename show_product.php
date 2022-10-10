@@ -52,7 +52,7 @@ echo "<table><tr><th>ลำดับ</th><th>ID</th><th>Name</th><th>Description
     }
 echo "</table>";
 echo "<button><a href='del_all.php'>นำสินค้าทั้งหมดออกจากตะกร้า</a></button>";
-echo "<h1>ราคาสิ้นค้า $total บาท</h1>";
+echo "<h1>ราคาสินค้า $total บาท</h1>";
 echo "<h2><a href='checkout.php'>สั่งซื้อ</a></h2>";
 }
 mysqli_close($con);
